@@ -1,0 +1,28 @@
+{
+  "name": "share-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "classnames": "^2.3.1",
+    "jsonp": "^0.2.1",
+    "preact": "^10.6.5",
+    "preact-custom-element": "^4.2.1",
+    "typescript": "4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
+  }
+}
